@@ -5,6 +5,8 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
 
+
+//TODO C'est ici qu'il faut modifier tes class J'ai deja
 @Table (name = "user")
 @Entity
 @EntityListeners(AuditingEntityListener.class)
